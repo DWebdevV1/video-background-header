@@ -36,7 +36,7 @@ video {
     height: 100%;
     z-index: 1;
     object-fit: cover;
-    filter: brightness(.45);
+    filter: brightness(.45) blur(.33rem);
 }
 
 .social-media {
@@ -55,6 +55,7 @@ video {
     letter-spacing: .25rem;
     transition: var(--transition-duration);
     padding: 1rem;
+    text-transform: capitalize;
 }
 
 .social-media li:hover {
@@ -148,6 +149,8 @@ header h1 {
     header h1 {
         font-size: 1.1rem;
         padding: 1rem 2rem;
+        margin: 2rem;
+        text-align: center;
     }
 
     header nav span i {
